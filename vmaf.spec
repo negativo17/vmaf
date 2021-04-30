@@ -39,6 +39,7 @@ Library for Video Multi-Method Assessment Fusion.
 %package -n     lib%{name}-devel
 Summary:        Development files for %{name}
 Requires:       lib%{name}%{?_isa} = %{version}-%{release}
+Provides:       %{name}-devel%{?_isa} = %{version}-%{release}
 
 %description -n lib%{name}-devel
 The %{name}-devel package contains libraries and header files for developing
